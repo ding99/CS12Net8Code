@@ -11,5 +11,7 @@ class Program
         Console.WriteLine("Line 1");
         WriteLine("Line 2");
         #endregion
+
+        WriteLine($"Computer named {Env.MachineName} says \"Yes\".");
     }
 }
