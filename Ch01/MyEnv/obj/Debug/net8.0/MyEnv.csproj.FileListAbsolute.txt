@@ -1,0 +1,14 @@
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\bin\Debug\net8.0\MyEnv.exe
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\bin\Debug\net8.0\MyEnv.deps.json
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\bin\Debug\net8.0\MyEnv.runtimeconfig.json
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\bin\Debug\net8.0\MyEnv.dll
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\bin\Debug\net8.0\MyEnv.pdb
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\obj\Debug\net8.0\MyEnv.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\obj\Debug\net8.0\MyEnv.AssemblyInfoInputs.cache
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\obj\Debug\net8.0\MyEnv.AssemblyInfo.cs
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\obj\Debug\net8.0\MyEnv.csproj.CoreCompileInputs.cache
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\obj\Debug\net8.0\MyEnv.dll
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\obj\Debug\net8.0\refint\MyEnv.dll
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\obj\Debug\net8.0\MyEnv.pdb
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\obj\Debug\net8.0\MyEnv.genruntimeconfig.cache
+D:\ProG\CS\VSCode\CS12Net8Code\Ch01\MyEnv\obj\Debug\net8.0\ref\MyEnv.dll
