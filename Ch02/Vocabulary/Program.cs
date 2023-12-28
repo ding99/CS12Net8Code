@@ -32,5 +32,9 @@ class Program
 
         string hori = new('-', count:74);
         System.Console.WriteLine($"hori [{hori}]");
+
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        string emj = char.ConvertFromUtf32(0x1f600);
+        System.Console.WriteLine(emj);
     }
 }
