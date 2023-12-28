@@ -24,5 +24,13 @@ class Program
             );
         }
 
+        System.Data.DataSet ds = new();
+        HttpClient client = new();
+
+        double heightInMeters = 1.88;
+        System.Console.WriteLine($"The variable {nameof(heightInMeters)} has the value {heightInMeters}.");
+
+        string hori = new('-', count:74);
+        System.Console.WriteLine($"hori [{hori}]");
     }
 }
