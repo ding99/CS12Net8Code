@@ -36,5 +36,11 @@ class Program
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         string emj = char.ConvertFromUtf32(0x1f600);
         System.Console.WriteLine(emj);
+
+        unsafe
+        {
+            System.Console.WriteLine($"Half uses {sizeof(Half)} bytes and can store numbers in the range {Half.MinValue:N0} to {Half.MaxValue:N0}.");
+            System.Console.WriteLine($"Int128 uses {sizeof(Int128)} bytes and can store numbers in the range {Int128.MinValue:N0} to {Int128.MaxValue:N0}.");
+        }
     }
 }
