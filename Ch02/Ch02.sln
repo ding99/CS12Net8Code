@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "Variables\Vari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formatting", "Formatting\Formatting.csproj", "{FF734436-4BB4-454C-8509-58E90A1C410D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncConsole", "AsyncConsole\AsyncConsole.csproj", "{55681EF3-C03E-43C4-A4A1-A55A5BF265AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{FF734436-4BB4-454C-8509-58E90A1C410D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF734436-4BB4-454C-8509-58E90A1C410D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF734436-4BB4-454C-8509-58E90A1C410D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55681EF3-C03E-43C4-A4A1-A55A5BF265AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55681EF3-C03E-43C4-A4A1-A55A5BF265AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55681EF3-C03E-43C4-A4A1-A55A5BF265AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55681EF3-C03E-43C4-A4A1-A55A5BF265AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
