@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿#region unary
+
+int a = 3;
+int b = a++;
+System.Console.WriteLine($"a is {a}, b is {b}");
+
+int c = 3;
+int d= ++c;
+System.Console.WriteLine($"c is {c}, d is {d}");
+
+#endregion
