@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Oper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selection", "Selection\Selection.csproj", "{0D08DF1D-6178-4DA7-BCC3-7D95BED43C11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{E6692E48-567C-478D-A2F8-019D8D1A5FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0D08DF1D-6178-4DA7-BCC3-7D95BED43C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D08DF1D-6178-4DA7-BCC3-7D95BED43C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D08DF1D-6178-4DA7-BCC3-7D95BED43C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6692E48-567C-478D-A2F8-019D8D1A5FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6692E48-567C-478D-A2F8-019D8D1A5FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6692E48-567C-478D-A2F8-019D8D1A5FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6692E48-567C-478D-A2F8-019D8D1A5FDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
