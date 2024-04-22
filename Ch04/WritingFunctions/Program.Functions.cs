@@ -65,12 +65,20 @@ partial class Program
             throw new ArgumentOutOfRangeException();
         }
         else if(term == 1){
-            return 1;
+            return 0;
         }else if(term == 2){
             return 1;
         } else{
             return FibImperative(term - 1) + FibImperative(term - 2);
         }
     }
+
+    static int FibFunctional(uint term) => term switch
+    {
+        0 => throw new ArgumentOutOfRangeException(),
+        1 => 0,
+        2 => 1,
+        _ => FibFunctional(term - 1) + FibFunctional(term - 2)
+    };
 
 }
