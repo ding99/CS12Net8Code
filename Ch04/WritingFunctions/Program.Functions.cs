@@ -20,6 +20,12 @@ partial class Program
         System.Console.WriteLine($"CurrentCulture:{CultureInfo.CurrentCulture.DisplayName}");
     }
 
+    /// <summary>
+    /// Calculate tax
+    /// </summary>
+    /// <param name="amount">price</param>
+    /// <param name="regionCode">region code</param>
+    /// <returns>tax/returns>
     static decimal CalculateTax(decimal amount, string regionCode){
         decimal rate = regionCode switch{
             "CH" => .08M, //Switzerland
