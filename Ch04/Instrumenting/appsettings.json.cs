@@ -1,5 +1,0 @@
-{
-	"PacktSwitch":{
-		"Value":"Info"
-	}
-}
