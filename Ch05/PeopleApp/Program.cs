@@ -21,3 +21,8 @@ var book = new Book {
  };
  */
 var book = new Book ("978-1803237800", "C# 12 and .NET 8 - Modern Cross-Platform Development Fundamentals");
+
+var (name1, dob1) = bob;
+WriteLine($"Deconstructed person: {name1}, {dob1}");
+var (name2, dob2, fav2) = bob;
+WriteLine($"Deconstructed person: {name2}, {dob2}, {fav2}");
