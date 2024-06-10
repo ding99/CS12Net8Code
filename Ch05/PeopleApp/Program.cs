@@ -13,8 +13,11 @@ bob.BucketList = WondersOfTheAncientWorld.HangingGardensOfBabylon | WondersOfThe
 WriteLine("{0}'s favorite wonder is {1}. Its integer is {2}.", bob.Name, bob.FavoriteAncientWonder, (int)bob.FavoriteAncientWonder);
 WriteLine($"{bob.Name}'s bucket list is {bob.BucketList}.");
 
+/*
 var book = new Book {
     Isbn = "978-1803237800",
     Title = "C# 12 and .NET 8 - Modern Cross-Platform Development Fundamentals"
 
  };
+ */
+var book = new Book ("978-1803237800", "C# 12 and .NET 8 - Modern Cross-Platform Development Fundamentals");
