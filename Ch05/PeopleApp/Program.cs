@@ -1,4 +1,6 @@
-﻿using Packt.Shared;
+﻿using System.Security.Cryptography;
+using Packt.Chared;
+using Packt.Shared;
 
 ConfigureConsole();
 Person bob = new();
@@ -64,4 +66,28 @@ WriteLine($"Sam's second child is {sam.Children[1].Name}.");
 WriteLine($"Sam's first child is {sam[0].Name}.");
 WriteLine($"Sam's second child is {sam[1].Name}.");
 WriteLine($"Sam's child named Ella is {sam["Ella"].Age} years old.");
+
+ForegroundColor = ConsoleColor.Green;
+Passenger[] passengers = {
+    new FirstClassPassender{AirMiles=1_419,Name="Suman"},
+    new FirstClassPassender{AirMiles=16_562,Name ="Lucy"},
+    new BusinessClassPassender{Name = "Janice"},
+    new CoachClassPassender{CarryOnKG=25.7,Name="Dave"},
+    new CoachClassPassender{CarryOnKG=0,Name="Amit"}
+};
+foreach(Passenger pg in passengers){
+    decimal flightCost = pg switch
+    {
+        FirstClassPassender p when p.AirMiles > 35_000 => 1_500M,
+        FirstClassPassender p when p.AirMiles > 15_000 => 1_750M,
+        FirstClassPassender _ => 2_000M,
+        BusinessClassPassender _ => 1_000M,
+        CoachClassPassender p when p.CarryOnKG < 10.0 => 500M,
+        CoachClassPassender _ => 650M,
+        _ => 800M
+    };
+    WriteLine($"Flight costs {flightCost:C} for {pg}");
+}
+
+
 ResetColor();
