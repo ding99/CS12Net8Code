@@ -1,6 +1,5 @@
 namespace Packt.Shared1
 {
-
     public class Person1
     {
         public void Start1(){
