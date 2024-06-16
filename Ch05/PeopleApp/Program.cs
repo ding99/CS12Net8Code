@@ -29,6 +29,7 @@ WriteLine($"Deconstructed person: {name1}, {dob1}");
 var (name2, dob2, fav2) = bob;
 WriteLine($"Deconstructed person: {name2}, {dob2}, {fav2}");
 
+ForegroundColor = ConsoleColor.Cyan;
 Person sam = new()
 {
     Name = "Sam",
@@ -48,4 +49,19 @@ catch(Exception e){
     WriteLine("Tried to set {0} to '{1}':{2}", nameof(sam.FavoritePrimaryColor), color, e.Message);
 }
 
-
+ForegroundColor = ConsoleColor.Yellow;
+sam.Children.Add(new()
+{
+    Name = "Charlie",
+    Born = new(2010, 3, 18, 0, 0, 0, TimeSpan.Zero)
+});
+sam.Children.Add(new() {
+    Name = "Ella",
+    Born = new(2020,12,24,0,0,0,TimeSpan.Zero)
+ });
+WriteLine($"Sam's first child is {sam.Children[0].Name}.");
+WriteLine($"Sam's second child is {sam.Children[1].Name}.");
+WriteLine($"Sam's first child is {sam[0].Name}.");
+WriteLine($"Sam's second child is {sam[1].Name}.");
+WriteLine($"Sam's child named Ella is {sam["Ella"].Age} years old.");
+ResetColor();

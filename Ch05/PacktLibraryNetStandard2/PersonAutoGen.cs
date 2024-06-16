@@ -2,6 +2,23 @@ namespace Packt.Shared;
 
 public partial class Person {
 
+    #region indexes
+    public Person this[int index]{
+        get{
+            return Children[index];
+        }
+        set{
+            Children[index] = value;
+        }
+    }
+
+    public Person this[string name]{
+        get{
+            return Children.Find(p => p.Name == name);
+        }
+    }
+    #endregion
+
     public string Origin
     {
         get
