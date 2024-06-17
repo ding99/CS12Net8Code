@@ -89,5 +89,23 @@ foreach(Passenger pg in passengers){
     WriteLine($"Flight costs {flightCost:C} for {pg}");
 }
 
+ForegroundColor = ConsoleColor.Red;
+ImmutablePerson jeff = new()
+{
+    FirstName = "Jeff",
+    LastName = "Winger"
+};
+//jeff.FirstName = "Geoff";
+WriteLine($"The immutable person: {jeff.FirstName} {jeff.LastName}");
+ImmutableVehicle car = new()
+{
+    Brand = "Mazda Mxz-5 RF",
+    Color = "Soul Red Crystal Metallic",
+    Wheels = 4
+};
+ImmutableVehicle repaintedCar = car with { Color = "Polymetal Gray Metallic" };
+WriteLine($"Original car color was {car.Color}");
+WriteLine($"New car color is {repaintedCar.Color}");
+
 
 ResetColor();
