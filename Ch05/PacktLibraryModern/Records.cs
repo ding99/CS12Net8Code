@@ -10,3 +10,4 @@ public record ImmutableVehicle{
     public string? Brand {get; init; }
 }
 
+public record ImmutableAnimal(string Name, string Species);
