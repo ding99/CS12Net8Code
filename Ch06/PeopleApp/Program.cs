@@ -40,7 +40,8 @@ for(int i = 0; i<lamech.Children.Count;i++){
 }
 
 ForegroundColor = ConsoleColor.Cyan;
-harry.Shout = Harry_Shout;
+harry.Shout += Harry_Shout;
+harry.Shout += Harry_Shout_2;
 harry.Poke();
 harry.Poke();
 harry.Poke();

@@ -77,7 +77,7 @@ public class Person
     #endregion
 
     #region events
-    public EventHandler? Shout;
+    public event EventHandler? Shout;
     public int AngerLevel;
 
     public void Poke(){
